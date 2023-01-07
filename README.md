@@ -7,7 +7,7 @@ this is the second project proposed by the teacher Bob Ziroll
 <img src="./mock/travel-journal.png" width="350" height="400" />
 
 
-Visit [My Travel Journal](https://jovial-panda-048f03.netlify.app) to see the project
+Visit [My Travel Journal](https://fcc-my-travel-journal) to see the project
 
 ### Requirements
 - Build from scracth
