@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem;
+  text-align: center; */
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display:block;
+  width: 96%;               
+  background-color:#F5F5F5;
+  height: 1px;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+  height: 55px;
+}
+
+.nav-logo {  
+  height: 25px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 40px;
+}
+
+.card {  
+  display: flex;  
+  flex-direction: column;
+}
+
+.card--row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.card--info { 
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  max-width: 400px;  
+}
+
+.card--photo_box {  
+  display: flex;
+  width: 15vh;
+  height: 20vh;
+  overflow: hidden;  
+  border: 0;
+  border-radius: 5px;
+}
+
+.card--photo {   
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+
+.card--inliner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card--pin {
+  color:#F55A5A;
+  margin-right: 5px; 
+  height: 12px;
+}
+
+.card--location {
+  margin: 0;
+  margin-right: 10px; 
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: #2B283A;
+}
+
+.card--google_maps_link {
+  font-size: 12px;
+  color: #918E9B;
+}
+
+.card--google_maps_link:hover{
+  color: #c0bfbf;
+}
+
+.card--title {
+  margin: 0;
+  font-weight: 800;
+  color: #2B283A;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.card--date {
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.start-date {
+  margin-right: 2px;
+}
+
+.card--text {
+  margin: 0;
+  font-size: 12px;
+} 
